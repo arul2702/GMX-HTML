@@ -1,1 +1,1 @@
-Just started my HTML journey. Maximum effort;)
+Just started my HTML journey. Maximum effort ;)
