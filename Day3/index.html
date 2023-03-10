@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit_shop</title>
+    <style>
+        *{
+            background-color: antiquewhite;
+        }
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body >
+    <header><h1>Fruits Shop</h1></header>
+    <main>
+    <p><i>Welcome to our site... We have fruits you love.</i></p>
+    <ol >
+        <li>Apple<a href="https://www.healthline.com/nutrition/10-health-benefits-of-apples#:~:text=Apples%20are%20an%20incredibly%20nutritious,improve%20gut%20and%20brain%20health.">(benefits)</a></li>
+        <li>Orange<a href="https://www.healthifyme.com/blog/benefits-of-orange/">(benefits)</a></li>
+        <li>Watermelon<a href="https://www.healthline.com/nutrition/watermelon-health-benefits">(benefits)</a></li>
+    </ol>
+    
+    <table style="text-align: center;">
+        <thead>
+        <caption><h3>Table</h3></caption>
+        <tr>
+            <th>Name</th>
+            <th>Availability</th>
+            <th>Price</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Orange</td>
+            <td>20 pcs</td>
+            <td>20 rup</td>
+        </tr>
+        <tr>
+            <td>Apple</td>
+            <td >20 pcs</td>
+            <td>40 rup</td>
+        </tr>
+        <tr>
+            <td>Watermelon</td>
+            <td>12 pcs</td>
+            <td>10 rup</td>
+        </tr>
+    </tbody>
+    </table>
+    <h3>Place Order:</h3>
+    <form >
+        <p>Username</p>
+        <input type="text">
+        <div>Choose:
+           <input type="checkbox"><span>apple</span>
+            <input type="checkbox"><span>Watermelon</span>
+            <input type="checkbox"/><span>orange</p>
+            <p>Range</p><input type="range">
+        </div>
+        Address
+        <textarea name="Address" cols="30" rows="10"></textarea>
+        <button>Submit</button>
+    </form>
+    </main>
+</body>
+</html>
