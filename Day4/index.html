@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>petshop</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tilt Neon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Varela Round">
+    <style>
+        body,main{
+            background-color: rgb(195, 175, 244);
+            margin-left: 10px;
+        }
+        .img{
+            width: 500px;
+            border-style: solid;
+            border-radius: 50%;
+            border-width: 5px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+           
+        }
+        .head-name{
+            border-style: solid;
+            padding:0;
+            text-align: center;
+            background-color:lightgrey;
+            font-family: "Tilt Neon";
+            border-width: 5px;
+            
+        }
+        .intro{
+            font-size: 20px ;
+            font-family: 'Varela Round';
+        }
+        .common{
+            font-size: 18px;
+            font-family: 'Varela Round';
+            text-indent: 3px;
+        }
+        .dogcol{
+            padding: 10px;
+            border-style: solid;
+            text-align: center;
+            background-color:rgb(237, 143, 128);
+        }
+        .catcol{
+            padding: 10px;
+            border-style: solid;
+            text-align: center;
+            background-color: lightseagreen;
+        }
+        .birdcol{
+            padding: 10px;
+            border-style: solid;
+            text-align: center;
+            background-color:thistle;
+        }
+        button{
+            border-radius: 7%;
+            padding: 15px 50px 15px 50px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="head-name">Pet Shop</h1>
+        <!--class name for image-->
+        <img class="img" src="pets.jpg" alt="pets">
+    </header>
+    <main>
+        <p class="intro"> <big>Hi there...</big> <i>Welcome to our shop.Do you know who can'nt hate you at any suituation? its... yours pet.Here you can find your loved pet.</i></p>
+        <p class="common"><h3>Pets we have,</h3></p>
+            <p class="dogcol">Dogs</p>
+            <p class="catcol">Cats</p>
+            <p class="birdcol">Birds</p>
+        <p class="common"><h3>5 things every pet needs to feel good:</h3></p>
+        <ol type="a" class="common">
+            <li>Freedom from hunger and thirst. All dogs and cats should have easy access to fresh water and food.</li>
+            <li>Freedom from discomfort.</li>
+            <li>Freedom from pain, injury or disease.</li>
+            <li>Freedom to express normal behaviour.</li>
+            <li>Freedom from fear and distress.</li>
+
+        </ol>
+        <p class="common"><h3>Choose your pet</h3></p>
+        <form action="Choose your pet" class="common form">
+            <input name="pet" type="radio"> Dog <br>
+            <input name="pet" type="radio"> Cat <br>
+            <input name="pet" type="radio"> Bird <br> <br>
+            <button ><a href='#'><b>Order now</b></a></button>
+        </form>
+    </main>
+    
+</body>
+</html>
