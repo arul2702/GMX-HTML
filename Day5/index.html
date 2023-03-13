@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neftlix</title>
+    <style>
+        *{
+            padding:0%;
+        }
+        .form-box{
+            position: relative;
+            width: 430px;
+            height: 400px;
+            background: transparent;
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid black;
+            backdrop-filter: blur(1px) ;
+        }
+        h2{
+            text-align: center;
+        }
+        section{
+            display: flex; 
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .input{
+            margin:30px;
+            position:relative;
+            width: 200px;
+        }
+        
+           
+  
+
+    </style>
+</head>
+<body>
+
+    <section>
+        <div class="form-box">
+            <div class="form-value">
+                <h2>Login</h2>
+                <div class="input">
+                    <input type="email" required>
+                    <label for="">Email or Phone number</label>
+                </div>
+                 <div class="input">
+                    <input type="text" required>
+                    <label for="">Password</label>
+                </div>
+                <div calss="input">
+                     <input type="checkbox">remember me
+                </div>
+                <div class="button">
+                    <button><a href="#">Login</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>
