@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neftlix</title>
+    <style>
+        *{
+            margin:0%;
+            padding: 0%;
+            font-family: sans-serif;
+        }
+        h2{
+            text-align: center;
+        }
+        section{
+            justify-content: center;
+        }
+        body{
+            background: rgba(0,0,0,0.5) url('2.png') no-repeat ;
+            background-blend-mode:darken;
+        }
+        .form-box{
+            position: absolute;
+            margin-left: 36%;
+            margin-top: 1%;
+            background-color: black;
+            width: 440px;
+            height: 590px;
+        }
+        .form-box h2{
+            margin-left: 60px;
+            margin-top 50px;
+        }
+        input{
+            margin-left: 50px;
+            margin-top:20px;
+            width:320px;
+            height: 47px;
+            background-color: #333;
+            border-radius: 3px ;
+
+        }
+        button{
+            margin-left: 50px;
+            margin-top:20px;
+        }
+    </style>
+</head>
+<body>
+
+    <section>
+        <div class="form-box">
+            <div class="form-value">
+                <h2 style="color:whitesmoke">Sign in</h2>
+                <div class="input">
+                    <input type="email" required placeholder="Email or Phone number">
+                </div>
+                 <div class="input">
+                    <input type="text" required placeholder="Password">
+                </div>
+                <div calss="input" style="color: whitesmoke;">
+                     <input type="checkbox">remember me
+                </div>
+                <div class="button">
+                    <button><a href="#" >Sign in</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>
