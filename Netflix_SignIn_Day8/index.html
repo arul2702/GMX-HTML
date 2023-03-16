@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neftlix</title>
+    <link rel="icon" href="icon_netf.png" type="image/x-icon">
+    <style>
+        *{
+            margin:0%;
+            padding: 0%;
+            font-family: sans-serif;
+        }
+        section{
+            justify-content: center;
+        }
+        body{
+            background: rgba(0,0,0,0.5) url('2.png') no-repeat  ;
+            background-blend-mode:darken;
+        }
+        .form-box{
+            position: absolute;
+            margin-left: 36%;
+            margin-top: 6%;
+            width: 420px;
+            height: 600px;
+            background: transparent;
+        }
+        .background{
+            display:grid;
+            color: black;
+            position: absolute;
+            margin-left: 36%;
+            margin-top: 6%;
+            background-color: black;
+            width: 420px;
+            height: 630px;
+            border-radius: 7px;
+            opacity: 80%;
+        }
+        .form-box h1{
+           margin-left:50px;
+            margin-top: 60px;
+            font-family: poppins;
+            font-size: 30px;
+        }
+        input{
+            margin-left: 50px;
+            margin-top:20px;
+            width:320px;
+            height: 47px;
+            background-color: #333;
+            border-radius: 3px ;
+            font-size: 16px;
+            border: none;
+        }
+        input::placeholder{
+            margin-left: 12px;
+            padding: 12px;
+            margin-top: 20px;
+        }
+        input[type=submit]{
+            background-color: rgb(253, 39, 39);
+            color:white;
+            font-size: 17px;
+            cursor:pointer;
+            margin-top: 40px;
+        }
+        input[type=checkbox]{
+            width:15px;
+            height: 18px;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+        label{
+            color: rgb(113, 110, 110);
+            font-size: 16px;
+            font-family: Poppins;
+            font-weight: 600;
+            font-size: 13px;
+        }
+        .needhelp{
+            float:right;
+            margin-top: 15px;
+            color: rgb(113, 110, 110); 
+            margin-right: 53px;  
+            text-decoration:none;
+            font-size: 13px;  
+            font-family: Poppins;
+            font-weight: 600; 
+        }
+       .para{
+        color:aliceblue ;
+        margin-left: 53px;
+        margin-top:70px;
+        font-size: 16px;
+       }
+       .para_a{
+        color:aliceblue;
+        text-decoration: none;
+        font-size: 16px;
+       }
+       .para2{
+        color:rgb(113, 110, 110);
+        margin-left: 53px;
+        margin-right: 55px;
+        margin-top:15px;
+        font-size: 13px;
+        font-weight: 510; 
+       }
+       .para2_a{
+        text-decoration: none;
+       }
+       .captcha{
+        font-family: Montserrat;
+        font-weight:600 ;
+       }
+       /*
+       .foot{
+        display: grid;
+        background-color: black;
+        opacity: 80%;
+        position: fixed;
+         left: 0;
+        bottom: 0;
+        width: 100%;
+        height:70px;
+        color: rgb(113, 110, 110);
+        
+       }
+       */
+    </style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+</head>
+
+<body>
+
+    <section>
+        <div class="background">.</div>
+        <div class="form-box">
+            <div class="form-value">
+                <h1 style="color:whitesmoke">Sign In</h1>
+                    <input type="email" required placeholder="Email or Phone number">
+                 
+                    <input type="password" required placeholder="Password">
+                
+                    <input type="submit" value="Sign in">
+                     <input type="checkbox"> 
+                     <label>Remember me</label>
+                     <a class="needhelp" href="#">Need help?</a>
+                     <div class="para" style="color:  rgb(113, 110, 110);">
+                        New to Netflix?
+                        <a href="#" class="para_a"> Sign up now.</a>
+                    </div>
+                    <div class="para2">This page is protected by Google re<span class="captcha">CAPTCHA</span> to ensure you're not a bot.
+                        <a href="#" style="color:rgb(54, 54, 210)"  class="para2_a">Learn more.</a>
+                    </div>
+            </div>
+               
+        </div>
+        <footer>
+            <div class="foot"></div>
+        </footer>
+
+    </section>
+    
+</body>
+</html>
