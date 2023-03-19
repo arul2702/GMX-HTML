@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Issue Box</title>
+    <link rel="stylesheet" href="issue-form.css">
+</head>
+<body>
+    <div class="container">
+        <form action="issue_details">
+            <h2>Issue Box</h2>
+            <input class='text'type="text" placeholder="Subject">
+            <input class="text" type="text" placeholder="Location">
+            <textarea name="comment" placeholder="Describe the issue..."></textarea>
+            <div class="img">
+                <span for="files" class="btn"><ion-icon name="image-outline"></ion-icon></span>
+                <input class="img-btn"  type="file">
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</html>
