@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dash Board</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navigation">
+        <ul>
+            <li class="list active">
+                <a href="#">
+                    <span class="icon"><ion-icon name="clipboard-outline"></ion-icon></span>
+                    <span class="title">Dash Board</span>
+                </a>
+            </li>
+            <li class="list ">
+                <a href="#">
+                    <span class="icon"><ion-icon name="settings-outline"></ion-icon></span>
+                    <span class="title">Account Settings</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#">
+                    <span class="icon"><ion-icon name="chatbubbles-outline"></ion-icon></span>
+                    <span class="title">Feedback</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="container">
+        <header><h1>Dash Board</h1><br><hr></header>
+        <div class="box-container">
+            <a href="">
+            <div class="box">
+                <h3 class="box-name">Total</h3>
+                <div class="count">45</div>
+            </div></a>
+            <a href=""><div class="box">
+                <h3 class="box-name">On progress</h3>
+                <div class="count">45</div>
+            </div></a> 
+            <a href="">
+            <div class="box">
+                <h3 class="box-name">Completed</h3>
+                <div class="count">45</div>
+            </div></a>
+            <a href="">
+            <div class="box">
+                <h3 class="box-name">Pending</h3>
+                <div class="count">45</div>
+            </div></a>
+        </div>
+    </div>
+</body>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script>
+    //add active class in selected list item
+    let list=document.querySelectorAll('.list');
+    for(let i=0;i<list.length;i++){
+        list[i].onclick=function(){
+            let j=0;
+            while(j<list.length){
+                list[j].className='list';
+                j++;
+            }
+            list[i].className='active';
+        }
+    }
+</script>
+</html>
